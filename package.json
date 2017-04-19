@@ -1,0 +1,40 @@
+{
+  "name": "spaceflightscrapper",
+  "version": "1.0.0",
+  "description": "scrapes space flight now into json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhullfly/spaceflightscrapper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhullfly/spaceflightscrapper/issues"
+  },
+  "homepage": "https://github.com/jhullfly/spaceflightscrapper#readme",
+  "dependencies": {
+    "cheerio": "0.22.0",
+    "moment-timezone": "0.5.13",
+    "request": "2.81.0",
+    "request-promise": "4.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "7.2.1",
+    "eslint": "3.18.0",
+    "eslint-config-dashbot-backend": "1.0.2",
+    "eslint-plugin-node": "4.2.1",
+    "mocha": "3.2.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "dashbot-backend"
+    ]
+  },
+  "engines": {
+    "node": "7.7.1"
+  }
+}

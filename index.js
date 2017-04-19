@@ -4,7 +4,7 @@ const cheerio = require('cheerio')
 const request = require('request-promise')
 const moment = require('moment-timezone')
 
-class Scrapper {
+class Scraper {
   async nextLaunches(url = 'https://spaceflightnow.com/launch-schedule/') {
     const data = await request(url)
     const $ = cheerio.load(data)
@@ -53,9 +53,4 @@ class Scrapper {
   }
 }
 
-(new Scrapper().nextLaunches()).then((ret) => {
-  console.log(ret)
-}, (err) => {
-  console.log(err)
-  console.log(err.stack)
-})
+module.export = new Scraper()

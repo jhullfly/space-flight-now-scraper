@@ -54,4 +54,8 @@ class Scraper {
   }
 }
 
-module.export = new Scraper()
+/*(new Scraper()).nextLaunches().then(data => {
+  console.log(data)
+})*/
+
+module.exports = new Scraper()

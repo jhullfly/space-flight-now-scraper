@@ -1,6 +1,6 @@
 {
   "name": "space-flight-now-scraper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "scrapes space flight now into json",
   "main": "index.js",
   "scripts": {
